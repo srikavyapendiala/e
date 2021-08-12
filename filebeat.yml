@@ -38,7 +38,7 @@ daemonset:
                 logs_path: "/var/log/containers/"
 
       output.logstash:
-        hosts: '54.209.181.136:5044'
+        hosts: '18.209.180.144:5044'
   # Only used when updateStrategy is set to "RollingUpdate"
   maxUnavailable: 1
   nodeSelector: {}
